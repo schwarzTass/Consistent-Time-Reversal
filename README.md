@@ -2,7 +2,8 @@
 
 If you use this code, please cite our work as 
 
-> @article{schwarzConsistentTimeReversal,
+```
+@article{schwarzConsistentTimeReversal,
   title = {Consistent time reversal and reliable and accurate inference in the presence of memory},
   author = {Schwarz, Tassilo and Kolomeisky, Anatoly B. and Godec, Aljaž},
   journal = {Phys. Rev. Lett.},
@@ -13,7 +14,7 @@ If you use this code, please cite our work as
   doi = {10.1103/gwf7-6kvr},
   url = {https://link.aps.org/doi/10.1103/gwf7-6kvr}
 }
-
+```
 
 This code contains GPU-optimised code for the higher order estimator used e.g. in Fig. 1 of [[1]](https://doi.org/10.1103/gwf7-6kvr).
 
