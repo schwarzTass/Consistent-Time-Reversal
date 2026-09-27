@@ -1,6 +1,22 @@
 # Consistent time reversal and reliable and accurate inference in the presence of memory
 
-This code contains GPU-optimised code for a higher order estimator used in Fig. 1. 
+If you use this code, please cite our work as 
+
+> @article{schwarzConsistentTimeReversal,
+  title = {Consistent time reversal and reliable and accurate inference in the presence of memory},
+  author = {Schwarz, Tassilo and Kolomeisky, Anatoly B. and Godec, Aljaž},
+  journal = {Phys. Rev. Lett.},
+  pages = {},
+  year = {2026},
+  month = {Sep},
+  publisher = {American Physical Society},
+  doi = {10.1103/gwf7-6kvr},
+  url = {https://link.aps.org/doi/10.1103/gwf7-6kvr}
+}
+
+
+This code contains GPU-optimised code for the higher order estimator used e.g. in Fig. 1 of [[1]](https://doi.org/10.1103/gwf7-6kvr).
+
 Go through `six-state-example.ipynb` for a hands-on example on how to use the framework and for comments on certain key parameters.
 
 Note that this version repository contains the *GPU optimised* code, so we recommend running this on a single GPU like H100.
@@ -23,3 +39,9 @@ python -m ipykernel install --user \
 ```
 
 Then start the notebook  `six-state-example.ipynb` and select the kernel named Python (consistent time reversal estimator framework).
+
+
+[1] T. Schwarz, A. B. Kolomeisky, and A. Godec,
+“Consistent time reversal and reliable and accurate inference in the presence of memory,”
+*Physical Review Letters* (2026).
+https://doi.org/10.1103/gwf7-6kvr
